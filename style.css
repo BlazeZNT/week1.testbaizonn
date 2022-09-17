@@ -1,0 +1,233 @@
+
+.container{
+    width: 90%;
+    margin:  auto;
+}
+
+header {
+    background:  #55d6aa;
+    border: 5px;
+    border: solid;
+    border-color: black;
+    outline: solid;
+    outline: black;
+    outline-width: 500px;
+
+}
+
+.logo   {
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+nav{
+    float: right;
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 75px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px
+}
+
+nav a:hover {
+    color: black;
+    background-color: white;
+    
+}
+
+nav a:active{
+    color: coral;
+
+}
+body {
+    margin: 0;
+    background-color: #603162;
+    font-family: sans-serif;
+    font-weight: 400;
+    background-image: linear-gradient(60deg, #603162 0%, #55d6aa 100%);
+    background-repeat: no-repeat;
+    font-size: 20px;
+    
+}
+
+ h1 {
+     text-align: center;
+     color: #FF9F2F;
+     font-size: 30px;
+     
+ }
+
+ 
+p   {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+b {
+    color: #55d6aa;
+
+}
+
+img {
+    border: 5px solid black;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 1em;
+}
+
+h2 {
+    color: white;
+    
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+i {
+    color: #FF9F2F;
+}
+
+  
+table{
+    margin-left: 100px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.inverse {
+    color: white;
+    background-color: #FF9F2F;
+    text-align: center;
+    padding: 10px;
+    font-family: fantasy;
+
+}
+.discountedtable td{
+    padding-left: 40px;
+}
+a:link {
+    text-decoration: none;
+}
+
+.imagecenter{
+    align-items: right;
+    margin-right: 30px;
+}
+
+.imageleft {
+    margin-left: 30px;
+}
+
+.discounted {
+    color: tomato;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.footernav{
+    width: 89%;
+    margin:  auto;
+}
+
+footer {
+    background:  #55d6aa;
+    
+}
+
+
+.footernav{
+    float: right;
+}
+
+footer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footernav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.footernav li {
+    display: inline-block;
+    margin-left: 75px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.footernav a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px
+}
+
+.footernav a:hover {
+    color: black;
+    background-color: white;
+    
+}
+
+.footernav a:active{
+    color: coral;
+
+}
+
+
+.hometable{
+    width: 100%;
+}
+
+.signupcontainer {
+    padding: 20px;
+    background-color: #f1f1f1;
+    width: 80%;
+    margin: auto;
+}
+  
+  
+input[type=text], input[type=submit]{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+  

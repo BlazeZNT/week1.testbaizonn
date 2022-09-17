@@ -1,0 +1,23 @@
+body { 
+    font-family: Arial; margin-left: 3em; 
+    color: white;
+    background-color:  #603162;
+    background-image: linear-gradient(60deg, #603162 0%, #55d6aa 100%);
+}
+
+h1, h2 { 
+    margin-left: -1em; 
+    color: #55d6aa;
+}
+
+h2 { 
+    margin-top: 1.5em; margin-bottom: 0.5em; 
+}
+
+img {
+     margin-left: 1.5em;
+}
+
+img{ 
+    margin-top: 5em; margin-bottom: 1.5em; margin-right: 5em;
+}
